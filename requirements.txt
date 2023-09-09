@@ -1,0 +1,6 @@
+python -m pip install requests
+pip install matplotlib
+pip install pillow
+
+#If on Ubuntu Linux:
+sudo apt-get install python3-tk
