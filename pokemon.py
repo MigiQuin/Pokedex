@@ -2,7 +2,7 @@ import requests
 
 
 class Pokemon:
-    def __new__(self, pokemon):
+    def __init__(self, pokemon):
         response = requests.get(
             "https://pokeapi.co/api/v2/pokemon/" + pokemon)
         response.raise_for_status()
@@ -20,7 +20,6 @@ class Pokemon:
         except requests.exceptions.RequestException as e:
             print("An error occurred: ", e)
             return"""
-
         # Pokedex entry number of the pokemon
         self._id = pokemon_entry["id"]
 
