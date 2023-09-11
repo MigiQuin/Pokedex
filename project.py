@@ -1,5 +1,4 @@
 from pokemon import *
-
 from window import *
 
 
