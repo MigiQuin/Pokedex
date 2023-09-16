@@ -7,7 +7,7 @@
 * [Icon Photo](#Icon-Photo)
 * [TKinter Linux](#Install-Tkinter-in-Linux)
 * [Usage](#Usage)
-* [API Used](#API-Documentation:)
+* [API Used](#API-Documentation)
 * [Contact Me](#Contact-Me)
 
 ## Video Demo from Youtube
